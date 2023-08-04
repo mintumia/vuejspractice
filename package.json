@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-	    "build": "tailwindcss -i ./resources/css/app.css -o public/plugins/tailwindcss/main.css -w"
+	    "tail": "tailwindcss -i ./resources/css/app.css -o public/plugins/tailwindcss/main.css -w"
     },
     "devDependencies": {
         "axios": "^1.1.2",
